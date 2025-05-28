@@ -1,0 +1,29 @@
+const Emp=[
+    {
+        "empno":1001,
+        "name":"john",
+        "designation":"develor",
+        "salary":25000,
+    },
+     {"empno":1002,
+        "name":"raju",
+        "designation":"develor",
+        "salary":20000,
+    }, 
+    {"empno":1003,
+        "name":"sonu",
+        "designation":"webdeveplor",
+        "salary":35000,
+    },
+     {"empno":1004,
+        "name":"neha",
+        "designation":"manager",
+        "salary":45000,
+    },
+     {"empno":1005,
+        "name":"payal",
+        "designation":"admin",
+        "salary":20000,
+    }
+]
+export default Emp;
