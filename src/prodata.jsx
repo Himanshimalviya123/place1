@@ -1,0 +1,33 @@
+const Prodata=[
+    {
+        "prno":1001,
+        "pname":"watch",
+        "qantity":2,
+        "city":"bhopal",
+    },
+    {
+        "prno":1002,
+        "pname":"jwellery",
+        "qantity":2,
+        "city":"indore",
+    },
+    {
+        "prno":1003,
+        "pname":"microwave",
+        "qantity":2,
+        "city":"pune",
+    },
+    {
+        "prno":1004,
+        "pname":"laptop",
+        "qantity":1,
+        "city":"pune",
+    },
+    {
+        "prno":1004,
+        "pname":"mobile",
+        "qantity":2,
+        "city":"indore",
+    }
+]
+export default Prodata;
