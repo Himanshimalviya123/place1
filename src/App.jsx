@@ -190,16 +190,22 @@ import Layout from "./layout";
 import Home from "./home";
 import About from "./about";
 import Contact from "./contact";
+import Nopage from "./nopage";
 const App=()=>{
    
     return(
         <>
         <BrowserRouter>
         <Routes>
+
+            
             <Route path="/" element={<Layout/>}>
             <Route index element={<Home/>}/>
+            <Route path="home" element={<Home/>}/>
             <Route path="about" element={<About/>}/>
             <Route path="contact" element={<Contact/>}/>
+            <Route path="*" element={<Nopage/>}/>
+           
             </Route>
         </Routes>
         </BrowserRouter>
